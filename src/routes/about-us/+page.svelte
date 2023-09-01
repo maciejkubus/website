@@ -22,3 +22,31 @@
 		</div>
 	</div>
 </Container>
+<Container>
+	<div class="space-y-8 w-full">
+		<Title>Together</Title>
+		<div class="w-full flex flex-col md:flex-row gap-8">
+			<div class="w-full md:w-1/2 flex gap-6 flex-col justify-center items-start">
+				<Title fontWeight="font-bold" text="text-4xl">Hard work!</Title>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa
+					assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla
+					nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla.
+					Cupiditate sunt mollitia repudiandae nihil quis?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sit, assumenda quasi
+					minima earum nesciunt itaque suscipit repudiandae iste inventore.
+				</p>
+				<a href="/" class="btn variant-filled-secondary font-bold"> Adventure awaits! </a>
+			</div>
+			<div class="w-full md:w-1/2 flex flex-col gap-8">
+				<img
+					src="/assets/images/5.jpg"
+					alt="skills"
+					class="w-full h-full object-cover object-center"
+				/>
+			</div>
+		</div>
+	</div>
+</Container>
