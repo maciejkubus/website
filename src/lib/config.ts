@@ -1,5 +1,5 @@
 const config = {
-  appName: 'Just website',
+  appName: 'Just blog',
   pages: [
     { title: 'Home', href: '/' },
 		{ title: 'Blog', href: '/blog' },
