@@ -136,7 +136,7 @@
 				<div class="text-3xl font-heading-token font-bold">Quick</div>
 				<div class="text-lg flex flex-col justify-start items-start gap-1">
 					<a
-						href="/faq"
+						href="/help"
 						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div>FAQ</div>
@@ -148,16 +148,16 @@
 						<div>Privacy Policy</div>
 					</a>
 					<a
-						href="/refunds"
+						href="/privacy-policy"
 						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
-						<div>Refunds</div>
+						<div>Cookies Policy</div>
 					</a>
 					<a
-						href="/legal-issues"
+						href="/privacy-policy"
 						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
-						<div>Legal issues</div>
+						<div>Policy</div>
 					</a>
 				</div>
 			</svelte:fragment>
