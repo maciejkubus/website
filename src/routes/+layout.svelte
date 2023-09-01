@@ -94,17 +94,17 @@
 			</svelte:fragment>
 			<svelte:fragment slot="col-2">
 				<div class="text-3xl font-heading-token font-bold">Get in touch</div>
-				<div class="text-lg flex flex-col justify-start items-start group gap-1">
+				<div class="text-lg flex flex-col justify-start items-start gap-1">
 					<a
 						href="tel:+48 570 277 237"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div><i class="fas fa-phone" /></div>
 						<div>+48 570 277 237</div>
 					</a>
 					<a
 						href="mailto:maciekkubus@gmail.com"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div><i class="fas fa-envelope" /></div>
 						<div>maciekkubus@gmail.com</div>
@@ -112,7 +112,7 @@
 					<a
 						href="https://goo.gl/maps/WhWGN7Mt9tgnJQvLA"
 						target="_blank"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div><i class="fas fa-map-marker-alt" /></div>
 						<div>Janówka, Mokra 21</div>
@@ -121,28 +121,28 @@
 			</svelte:fragment>
 			<svelte:fragment slot="col-3">
 				<div class="text-3xl font-heading-token font-bold">Account</div>
-				<div class="text-lg flex flex-col justify-start items-start group gap-1">
+				<div class="text-lg flex flex-col justify-start items-start gap-1">
 					<a
 						href="/"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div>Dashboard</div>
 					</a>
 					<a
 						href="/"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div>Settings</div>
 					</a>
 					<a
 						href="/"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div>Orders</div>
 					</a>
 					<a
 						href="/"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div>Tickets</div>
 					</a>
@@ -150,28 +150,28 @@
 			</svelte:fragment>
 			<svelte:fragment slot="col-4">
 				<div class="text-3xl font-heading-token font-bold">Quick</div>
-				<div class="text-lg flex flex-col justify-start items-start group gap-1">
+				<div class="text-lg flex flex-col justify-start items-start gap-1">
 					<a
 						href="/faq"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div>FAQ</div>
 					</a>
 					<a
 						href="/privacy-policy"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div>Privacy Policy</div>
 					</a>
 					<a
 						href="/refunds"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div>Refunds</div>
 					</a>
 					<a
 						href="/legal-issues"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center group-hover:text-tertiary-500"
+						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
 					>
 						<div>Legal issues</div>
 					</a>
