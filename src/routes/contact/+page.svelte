@@ -7,6 +7,13 @@
 	import Timeline from '$lib/components/timeline/Timeline.svelte';
 	import UserCard from '$lib/components/user-card/UserCard.svelte';
 	import IconCard from '$lib/components/icon-card/IconCard.svelte';
+	import InputControl from '$lib/components/input-control/InputControl.svelte';
+
+	let name = '';
+	let email = '';
+	let message = '';
+
+	const submit = () => {};
 </script>
 
 <svelte:head>
@@ -42,12 +49,126 @@
 					<span slot="text" class="text-2xl">+48 570 277 237</span>
 				</IconCard>
 			</a>
-			<a href="https://goo.gl/maps/WhWGN7Mt9tgnJQvLA" class="hover:text-primary-500">
+			<a
+				href="https://goo.gl/maps/WhWGN7Mt9tgnJQvLA"
+				class="hover:text-primary-500"
+				target="_blank"
+			>
 				<IconCard variant="">
 					<i slot="icon" class="fas fa-map-marker-alt" />
 					<span slot="text" class="text-2xl">Janówka, Mokra 21</span>
 				</IconCard>
 			</a>
+		</div>
+	</div>
+</Container>
+
+<Container>
+	<div class="flex flex-col xl:flex-row w-full gap-8">
+		<div class="w-1/2 space-y-8">
+			<Title>Social media</Title>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos veritatis incidunt
+				dicta esse, laudantium aut doloribus corrupti quos eius non quisquam, quam inventore tenetur
+				fuga necessitatibus nobis delectus voluptatum?
+			</p>
+			<div class="flex flex-col gap-4 text-2xl">
+				<a
+					href="https://www.facebook.com/maciek.kubus.7/"
+					target="blank"
+					class="text-tertiary-500 hover:text-facebook"
+				>
+					<i class="fab fa-facebook-square" /> Facebook
+				</a>
+				<a
+					href="https://www.instagram.com/maciekkubus/"
+					target="blank"
+					class="text-tertiary-500 hover:text-instagram"
+				>
+					<i class="fab fa-instagram" /> Instagram
+				</a>
+				<a
+					href="https://open.spotify.com/user/6zd9lap9vzxqvdp2usxucizrh?si=a19c33e8d3f34168"
+					target="blank"
+					class="text-tertiary-500 hover:text-spotify"
+				>
+					<i class="fab fa-spotify" /> Spotify
+				</a>
+			</div>
+		</div>
+		<div class="w-1/2">
+			<div class="space-y-8">
+				<Title>Send a message</Title>
+				<form on:submit|preventDefault={submit} class="space-y-4">
+					<InputControl>
+						<label slot="name" for="name">Name</label>
+						<input
+							slot="input"
+							type="text"
+							name="name"
+							placeholder="Name"
+							class="w-full rounded variant-filled-tertiary"
+							bind:value={name}
+							required
+						/>
+					</InputControl>
+					<InputControl>
+						<label slot="name" for="email">E-Mail</label>
+						<input
+							slot="input"
+							type="email"
+							name="email"
+							placeholder="E-Mail"
+							class="w-full rounded variant-filled-tertiary"
+							bind:value={email}
+							required
+						/>
+					</InputControl>
+					<InputControl>
+						<label slot="name" for="message">Message</label>
+						<textarea
+							slot="input"
+							name="message"
+							placeholder="Message"
+							class="w-full rounded variant-filled-tertiary"
+							bind:value={message}
+							rows="4"
+							required
+						/>
+					</InputControl>
+					<div class="flex items-center gap-2">
+						<input type="checkbox" name="agreement" required />
+						<label for="agreement">
+							I agree to <a href="/privacy-policy" class="underline hover:text-primary-500"
+								>privacy policy</a
+							> and i understand how data is stored.
+						</label>
+					</div>
+					<div class="w-full flex justify-end">
+						<button
+							type="submit"
+							class="variant-filled-primary hover:variant-filled-secondary px-4 py-2 rounded"
+						>
+							Send
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</Container>
+<Container>
+	<div class="space-y-8 w-full">
+		<Title>Location</Title>
+		<div class="w-full h-96 flex">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23477.59420541459!2d19.379065720829132!3d51.79194167355439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471bb54104ba4569%3A0xd7d4a54e5760256b!2zTG5pYW5hIDIsIDkxLTE1OCDFgcOzZMW6!5e0!3m2!1sen!2spl!4v1693600705294!5m2!1sen!2spl"
+				style="border:0;"
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+				title="contact map"
+				class="flex-1"
+			/>
 		</div>
 	</div>
 </Container>
