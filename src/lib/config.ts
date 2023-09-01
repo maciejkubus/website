@@ -5,6 +5,7 @@ const config = {
 		{ title: 'Blog', href: '/blog' },
 		{ title: 'About us', href: '/about-us' },
     { title: 'Help', href: '/help' },
+    { title: 'Contact', href: '/contact' }
   ]
 }
 
