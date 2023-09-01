@@ -4,6 +4,7 @@
 	import Title from '$lib/components/title/Title.svelte';
 	import Map from '$lib/components/map/Map.svelte';
 	import { config } from '$lib/config';
+	import Timeline from '$lib/components/timeline/Timeline.svelte';
 </script>
 
 <svelte:head>
@@ -49,6 +50,55 @@
 				/>
 			</div>
 		</div>
+	</div>
+</Container>
+<Container>
+	<div class="space-y-8 w-full">
+		<Title title="w-100 xl:text-center">Our story</Title>
+		<Timeline
+			items={[
+				{
+					subtitle: '25 march 2000',
+					title: 'Borm',
+					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
+				},
+				{
+					subtitle: '11 february 2003',
+					title: 'Borm again',
+					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
+				},
+				{
+					subtitle: '24 december 2013',
+					title: 'Christmass',
+					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
+				},
+				{
+					subtitle: '26 may 2020',
+					title: 'Random day',
+					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
+				},
+				{
+					subtitle: '11 november 2021',
+					title: 'I met her',
+					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
+				},
+				{
+					subtitle: '10 october 2022',
+					title: 'We started this',
+					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
+				},
+				{
+					subtitle: '25 june 2023',
+					title: 'Medical help',
+					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
+				},
+				{
+					subtitle: '01 september 2023',
+					title: 'Today',
+					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
+				}
+			]}
+		/>
 	</div>
 </Container>
 <Container>
