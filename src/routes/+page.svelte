@@ -235,7 +235,7 @@
 						slot="image"
 						src="/assets/instagram.jpg"
 						alt="kaktus"
-						class="h-28 border-8 border-surface-900 rounded-r-lg"
+						class="h-28 border-8 border-surface-900 rounded-lg"
 					/>
 					<span slot="title">Instagram</span>
 					<span slot="subtitle">@maciekkubus</span>
