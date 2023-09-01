@@ -8,7 +8,7 @@
 <div class="flex flex-col gap-8">
 	{#each items as item, index}
 		<div
-			class="flex gap-8
+			class="flex gap-6
       {index % 2 === 0 ? 'xl:flex-row' : 'xl:flex-row-reverse'}
       {index != 0 ? 'xl:-mt-40' : ''}"
 		>
