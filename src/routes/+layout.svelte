@@ -120,32 +120,16 @@
 				</div>
 			</svelte:fragment>
 			<svelte:fragment slot="col-3">
-				<div class="text-3xl font-heading-token font-bold">Account</div>
+				<div class="text-3xl font-heading-token font-bold">Pages</div>
 				<div class="text-lg flex flex-col justify-start items-start gap-1">
-					<a
-						href="/"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
-					>
-						<div>Dashboard</div>
-					</a>
-					<a
-						href="/"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
-					>
-						<div>Settings</div>
-					</a>
-					<a
-						href="/"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
-					>
-						<div>Orders</div>
-					</a>
-					<a
-						href="/"
-						class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
-					>
-						<div>Tickets</div>
-					</a>
+					{#each config.pages as page}
+						<a
+							href={page.href}
+							class="text-tertiary-600 before:bg-tertiary-500 flex gap-2 w-auto justify-center hover:text-tertiary-500"
+						>
+							<div>{page.title}</div>
+						</a>
+					{/each}
 				</div>
 			</svelte:fragment>
 			<svelte:fragment slot="col-4">
