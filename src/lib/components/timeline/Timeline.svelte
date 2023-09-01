@@ -10,7 +10,7 @@
 		<div
 			class="flex gap-8
       {index % 2 === 0 ? 'xl:flex-row' : 'xl:flex-row-reverse'}
-      {index != 0 ? 'xl:-mt-32' : ''}"
+      {index != 0 ? 'xl:-mt-40' : ''}"
 		>
 			<div class="variant-filled-surface p-8 space-y-4 xl:w-1/2">
 				<Title text="text-lg" fontWeight="font-normal">{item.subtitle}</Title>
