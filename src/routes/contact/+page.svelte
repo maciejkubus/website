@@ -65,7 +65,7 @@
 
 <Container>
 	<div class="flex flex-col xl:flex-row w-full gap-8">
-		<div class="w-1/2 space-y-8">
+		<div class="w-full xl:w-1/2 space-y-8">
 			<Title>Social media</Title>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos veritatis incidunt
@@ -96,7 +96,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="w-1/2">
+		<div class="w-full xl:w-1/2">
 			<div class="space-y-8">
 				<Title>Send a message</Title>
 				<form on:submit|preventDefault={submit} class="space-y-4">
