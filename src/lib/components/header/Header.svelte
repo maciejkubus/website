@@ -21,7 +21,7 @@
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
 			class="
-      {open ? 'fixed top-16 bottom-0 left-0 w-full variant-filled-primary' : 'hidden'} 
+      {open ? 'fixed top-16 bottom-0 left-0 w-full variant-filled-surface' : 'hidden'} 
       xl:flex w-2/4"
 			on:click={() => (open = false)}
 		>
