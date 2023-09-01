@@ -103,7 +103,12 @@
 </Container>
 <Container>
 	<div class="space-y-16 w-full">
-		<Title>In 36 countries</Title>
+		<Title>In 35 countries</Title>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati animi inventore,
+			commodi blanditiis repellat consequuntur rerum distinctio, libero facere pariatur architecto
+			neque ipsa dolores facilis quidem expedita nemo est.
+		</p>
 		<Map />
 	</div>
 </Container>
