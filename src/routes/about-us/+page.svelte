@@ -2,6 +2,7 @@
 	import Accordion from '$lib/components/accordion/Accordion.svelte';
 	import Container from '$lib/components/container/Container.svelte';
 	import Title from '$lib/components/title/Title.svelte';
+	import Map from '$lib/components/map/Map.svelte';
 	import { config } from '$lib/config';
 </script>
 
@@ -48,5 +49,11 @@
 				/>
 			</div>
 		</div>
+	</div>
+</Container>
+<Container>
+	<div class="space-y-16 w-full">
+		<Title>In 36 countries</Title>
+		<Map />
 	</div>
 </Container>
