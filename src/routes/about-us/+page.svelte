@@ -5,6 +5,7 @@
 	import Map from '$lib/components/map/Map.svelte';
 	import { config } from '$lib/config';
 	import Timeline from '$lib/components/timeline/Timeline.svelte';
+	import UserCard from '$lib/components/user-card/UserCard.svelte';
 </script>
 
 <svelte:head>
@@ -99,6 +100,93 @@
 				}
 			]}
 		/>
+	</div>
+</Container>
+<Container>
+	<div class="space-y-8 w-full">
+		<Title>Our team</Title>
+		<div class="grid grid-cols-1 xl:grid-cols-4 gap-8 py-8 w-full">
+			<UserCard>
+				<img
+					slot="image"
+					src="/assets/characters/9.jpg"
+					alt="Aoi Kitsune"
+					class="flex aspect-[3/4] object-cover object-center"
+				/>
+				<span slot="fullname">Aoi Kitsune</span>
+				<span slot="position">Samurai</span>
+			</UserCard>
+			<UserCard>
+				<img
+					slot="image"
+					src="/assets/characters/13.jpg"
+					alt="Hoshikagawa"
+					class="flex aspect-[3/4] object-cover object-center"
+				/>
+				<span slot="fullname">Hoshikagawa</span>
+				<span slot="position">Doctor</span>
+			</UserCard>
+			<UserCard>
+				<img
+					slot="image"
+					src="/assets/characters/6.jpg"
+					alt="Jinx"
+					class="flex aspect-[3/4] object-cover object-center"
+				/>
+				<span slot="fullname">Jinx</span>
+				<span slot="position">Street kid</span>
+			</UserCard>
+			<UserCard>
+				<img
+					slot="image"
+					src="/assets/characters/14.jpg"
+					alt="Seinaru shōjo"
+					class="flex aspect-[3/4] object-cover object-center"
+				/>
+				<span slot="fullname">Seinaru</span>
+				<span slot="position">Executive nun</span>
+			</UserCard>
+			<UserCard>
+				<img
+					slot="image"
+					src="/assets/characters/11.jpg"
+					alt="Skeleton"
+					class="flex aspect-[3/4] object-cover object-center"
+				/>
+				<span slot="fullname">Skeleton</span>
+				<span slot="position">Warrior</span>
+			</UserCard>
+			<UserCard>
+				<img
+					slot="image"
+					src="/assets/characters/1.jpg"
+					alt="Shiro Neko"
+					class="flex aspect-[3/4] object-cover object-center"
+				/>
+				<span slot="fullname">Shiro Neko</span>
+				<span slot="position">Nun</span>
+			</UserCard>
+			<UserCard>
+				<img
+					slot="image"
+					src="/assets/characters/7.jpg"
+					alt="Nergal"
+					class="flex aspect-[3/4] object-cover object-center"
+				/>
+				<span slot="fullname">Nergal</span>
+				<span slot="position">God of death</span>
+			</UserCard>
+			<UserCard>
+				<img
+					slot="image"
+					src="/assets/characters/8.jpg"
+					alt="Neko shōjo"
+					class="flex aspect-[3/4] object-cover object-center"
+				/>
+				<span slot="fullname">Neko shōj</span>
+				<span slot="position">Nekomimi</span>
+			</UserCard>
+		</div>
 	</div>
 </Container>
 <Container>
