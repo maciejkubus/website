@@ -60,12 +60,12 @@
 			items={[
 				{
 					subtitle: '25 march 2000',
-					title: 'Borm',
+					title: 'Born',
 					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
 				},
 				{
 					subtitle: '11 february 2003',
-					title: 'Borm again',
+					title: 'Born again',
 					text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita officia culpa assumenda! Maiores repudiandae quasi aspernatur veniam odio nostrum fugiat quod nulla nesciunt tempore! Similique officia eos placeat explicabo alias? Sint, adipisci nulla. Cupiditate sunt mollitia repudiandae nihil quis.'
 				},
 				{
